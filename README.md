@@ -1,2 +1,2 @@
 # turbo-giggle
-快速 - deploy
+easy-quick-deploy
