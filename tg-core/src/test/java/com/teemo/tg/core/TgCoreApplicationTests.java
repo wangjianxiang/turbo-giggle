@@ -1,10 +1,10 @@
-package com.teemo.turbogiggle;
+package com.teemo.tg.core;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TurboGiggleApplicationTests {
+class TgCoreApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package com.teemo.turbogiggle;
+package com.teemo.tg.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
