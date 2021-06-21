@@ -25,6 +25,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author Zheng Jie
+ * 权限管理 统一类
  */
 @Service(value = "el")
 public class ElPermissionConfig {
