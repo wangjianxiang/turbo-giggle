@@ -21,7 +21,6 @@ import com.teemo.tg.modules.mnt.service.AppService;
 import com.teemo.tg.modules.mnt.service.dto.AppDto;
 import com.teemo.tg.modules.mnt.service.dto.AppQueryCriteria;
 import com.teemo.tg.modules.mnt.service.mapstruct.AppMapper;
-import com.teemo.tg.exception.BadRequestException;
 import com.teemo.tg.utils.FileUtil;
 import com.teemo.tg.utils.PageUtil;
 import com.teemo.tg.utils.QueryHelp;
@@ -83,7 +82,7 @@ public class AppServiceImpl implements AppService {
     }
 
     private void verification(App resources){
-        String opt = "/opt";
+        /*String opt = "/opt";
         String home = "/home";
         if (!(resources.getUploadPath().startsWith(opt) || resources.getUploadPath().startsWith(home))) {
             throw new BadRequestException("文件只能上传在opt目录或者home目录 ");
@@ -93,7 +92,7 @@ public class AppServiceImpl implements AppService {
         }
         if (!(resources.getBackupPath().startsWith(opt) || resources.getBackupPath().startsWith(home))) {
             throw new BadRequestException("文件只能备份在opt目录或者home目录 ");
-        }
+        }*/
     }
 
     @Override
