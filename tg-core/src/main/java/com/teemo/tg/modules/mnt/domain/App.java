@@ -47,8 +47,8 @@ public class App extends BaseEntity implements Serializable {
 	@ApiModelProperty(value = "应用编码")
 	private String code;
 
-	@ApiModelProperty(value = "应用负责人")
-	private String responsiblePerson;
+	//@ApiModelProperty(value = "应用负责人")
+	//private String responsiblePerson;
 
 	@ApiModelProperty(value = "端口")
 	private int port;
